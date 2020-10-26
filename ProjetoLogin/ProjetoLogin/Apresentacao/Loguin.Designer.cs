@@ -1,6 +1,6 @@
 ﻿namespace ProjetoLogin
 {
-    partial class Form1
+    partial class Loguin
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loguin));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEntrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
@@ -59,6 +59,7 @@
             resources.ApplyResources(this.btnSair, "btnSair");
             this.btnSair.Name = "btnSair";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // lblLogin
             // 
@@ -91,8 +92,9 @@
             resources.ApplyResources(this.btnCadastreSe, "btnCadastreSe");
             this.btnCadastreSe.Name = "btnCadastreSe";
             this.btnCadastreSe.UseVisualStyleBackColor = false;
+            this.btnCadastreSe.Click += new System.EventHandler(this.btnCadastreSe_Click);
             // 
-            // Form1
+            // Loguin
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,8 +108,9 @@
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Name = "Loguin";
+            this.Load += new System.EventHandler(this.Loguin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

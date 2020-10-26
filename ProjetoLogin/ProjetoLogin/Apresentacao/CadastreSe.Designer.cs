@@ -32,17 +32,17 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CADASTRO = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.lblLogin = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.lblConfirmaSenha = new System.Windows.Forms.Label();
-            this.txtLoguin = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
-            this.txtConfirmaSenha = new System.Windows.Forms.TextBox();
-            this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnCadastrar = new System.Windows.Forms.Button();
+            this.txbConfirmaSenha = new System.Windows.Forms.TextBox();
+            this.txbSenha = new System.Windows.Forms.TextBox();
+            this.txbLogin = new System.Windows.Forms.TextBox();
+            this.lblConfirmaSenha = new System.Windows.Forms.Label();
+            this.lblSenha = new System.Windows.Forms.Label();
+            this.lblLogin = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.CADASTRO.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -73,9 +73,9 @@
             // 
             this.tabPage1.Controls.Add(this.btnSair);
             this.tabPage1.Controls.Add(this.btnCadastrar);
-            this.tabPage1.Controls.Add(this.txtConfirmaSenha);
-            this.tabPage1.Controls.Add(this.txtSenha);
-            this.tabPage1.Controls.Add(this.txtLoguin);
+            this.tabPage1.Controls.Add(this.txbConfirmaSenha);
+            this.tabPage1.Controls.Add(this.txbSenha);
+            this.tabPage1.Controls.Add(this.txbLogin);
             this.tabPage1.Controls.Add(this.lblConfirmaSenha);
             this.tabPage1.Controls.Add(this.lblSenha);
             this.tabPage1.Controls.Add(this.lblLogin);
@@ -86,6 +86,78 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(253, 212);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(108, 30);
+            this.btnSair.TabIndex = 7;
+            this.btnSair.Text = "SAIR";
+            this.btnSair.UseVisualStyleBackColor = true;
+            // 
+            // btnCadastrar
+            // 
+            this.btnCadastrar.Location = new System.Drawing.Point(123, 212);
+            this.btnCadastrar.Name = "btnCadastrar";
+            this.btnCadastrar.Size = new System.Drawing.Size(108, 30);
+            this.btnCadastrar.TabIndex = 6;
+            this.btnCadastrar.Text = "CADASTRAR";
+            this.btnCadastrar.UseVisualStyleBackColor = true;
+            // 
+            // txbConfirmaSenha
+            // 
+            this.txbConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbConfirmaSenha.Location = new System.Drawing.Point(73, 159);
+            this.txbConfirmaSenha.Name = "txbConfirmaSenha";
+            this.txbConfirmaSenha.Size = new System.Drawing.Size(339, 22);
+            this.txbConfirmaSenha.TabIndex = 5;
+            // 
+            // txbSenha
+            // 
+            this.txbSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbSenha.Location = new System.Drawing.Point(73, 110);
+            this.txbSenha.Name = "txbSenha";
+            this.txbSenha.Size = new System.Drawing.Size(339, 22);
+            this.txbSenha.TabIndex = 4;
+            // 
+            // txbLogin
+            // 
+            this.txbLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbLogin.Location = new System.Drawing.Point(73, 57);
+            this.txbLogin.Name = "txbLogin";
+            this.txbLogin.Size = new System.Drawing.Size(339, 22);
+            this.txbLogin.TabIndex = 3;
+            // 
+            // lblConfirmaSenha
+            // 
+            this.lblConfirmaSenha.AutoSize = true;
+            this.lblConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmaSenha.Location = new System.Drawing.Point(70, 138);
+            this.lblConfirmaSenha.Name = "lblConfirmaSenha";
+            this.lblConfirmaSenha.Size = new System.Drawing.Size(153, 16);
+            this.lblConfirmaSenha.TabIndex = 2;
+            this.lblConfirmaSenha.Text = "CONFIRMAR SENHA";
+            // 
+            // lblSenha
+            // 
+            this.lblSenha.AutoSize = true;
+            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenha.Location = new System.Drawing.Point(70, 89);
+            this.lblSenha.Name = "lblSenha";
+            this.lblSenha.Size = new System.Drawing.Size(60, 16);
+            this.lblSenha.TabIndex = 1;
+            this.lblSenha.Text = "SENHA";
+            // 
+            // lblLogin
+            // 
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogin.Location = new System.Drawing.Point(70, 36);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(53, 16);
+            this.lblLogin.TabIndex = 0;
+            this.lblLogin.Text = "LOGIN";
             // 
             // tabPage2
             // 
@@ -99,23 +171,6 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // lblLogin
-            // 
-            this.lblLogin.AutoSize = true;
-            this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogin.Location = new System.Drawing.Point(70, 36);
-            this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(64, 16);
-            this.lblLogin.TabIndex = 0;
-            this.lblLogin.Text = "LOGUIN";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(234, 98);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -125,67 +180,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "NOME";
             // 
-            // lblSenha
+            // textBox1
             // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSenha.Location = new System.Drawing.Point(70, 89);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(60, 16);
-            this.lblSenha.TabIndex = 1;
-            this.lblSenha.Text = "SENHA";
-            // 
-            // lblConfirmaSenha
-            // 
-            this.lblConfirmaSenha.AutoSize = true;
-            this.lblConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblConfirmaSenha.Location = new System.Drawing.Point(70, 138);
-            this.lblConfirmaSenha.Name = "lblConfirmaSenha";
-            this.lblConfirmaSenha.Size = new System.Drawing.Size(153, 16);
-            this.lblConfirmaSenha.TabIndex = 2;
-            this.lblConfirmaSenha.Text = "CONFIRMAR SENHA";
-            // 
-            // txtLoguin
-            // 
-            this.txtLoguin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLoguin.Location = new System.Drawing.Point(73, 57);
-            this.txtLoguin.Name = "txtLoguin";
-            this.txtLoguin.Size = new System.Drawing.Size(339, 22);
-            this.txtLoguin.TabIndex = 3;
-            // 
-            // txtSenha
-            // 
-            this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenha.Location = new System.Drawing.Point(73, 110);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(339, 22);
-            this.txtSenha.TabIndex = 4;
-            // 
-            // txtConfirmaSenha
-            // 
-            this.txtConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfirmaSenha.Location = new System.Drawing.Point(73, 159);
-            this.txtConfirmaSenha.Name = "txtConfirmaSenha";
-            this.txtConfirmaSenha.Size = new System.Drawing.Size(339, 22);
-            this.txtConfirmaSenha.TabIndex = 5;
-            // 
-            // btnCadastrar
-            // 
-            this.btnCadastrar.Location = new System.Drawing.Point(123, 212);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(108, 30);
-            this.btnCadastrar.TabIndex = 6;
-            this.btnCadastrar.Text = "CADASTRAR";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            // 
-            // btnSair
-            // 
-            this.btnSair.Location = new System.Drawing.Point(253, 212);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(108, 30);
-            this.btnSair.TabIndex = 7;
-            this.btnSair.Text = "SAIR";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(234, 98);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
             // 
             // Cadastre_se
             // 
@@ -194,9 +194,10 @@
             this.ClientSize = new System.Drawing.Size(508, 434);
             this.Controls.Add(this.CADASTRO);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cadastre_se";
-            this.Text = "Cadastre_se";
+            this.Text = "Sistema Clínica Médica";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.CADASTRO.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -218,9 +219,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.TextBox txtConfirmaSenha;
-        private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.TextBox txtLoguin;
+        private System.Windows.Forms.TextBox txbConfirmaSenha;
+        private System.Windows.Forms.TextBox txbSenha;
+        private System.Windows.Forms.TextBox txbLogin;
         private System.Windows.Forms.Label lblConfirmaSenha;
         private System.Windows.Forms.Label lblSenha;
     }

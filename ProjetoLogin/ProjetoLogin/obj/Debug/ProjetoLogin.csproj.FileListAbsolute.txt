@@ -2,10 +2,11 @@ C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\bin\De
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.exe
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\bin\Debug\ProjetoLogin.pdb
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csprojAssemblyReference.cache
-C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Form1.resources
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Properties.Resources.resources
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.GenerateResource.cache
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.csproj.CoreCompileInputs.cache
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.exe
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.pdb
 C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentacao.Cadastre_se.resources
+C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Apresentacao.Principal.resources
+C:\Users\Visa Remoções\Desktop\Darlan\C-Sharp\ProjetoLogin\ProjetoLogin\obj\Debug\ProjetoLogin.Loguin.resources
