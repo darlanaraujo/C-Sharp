@@ -53,6 +53,7 @@
             resources.ApplyResources(this.btnEntrar, "btnEntrar");
             this.btnEntrar.Name = "btnEntrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSair
             // 

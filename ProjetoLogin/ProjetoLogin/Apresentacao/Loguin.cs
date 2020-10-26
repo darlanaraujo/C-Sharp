@@ -3,6 +3,7 @@
  */
 
 using ProjetoLogin.Apresentacao;
+using ProjetoLogin.Modelo;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -36,6 +37,32 @@ namespace ProjetoLogin
         private void Loguin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            Controle controle = new Controle();
+            controle.acessar(txbLogin.Text, txbSenha.Text);
+
+            if (controle.mensagem.Equals(""))
+            {
+                if (controle.tem)
+                {
+                    MessageBox.Show("Logado com sucesso!", "Entrando", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
+                    //Caso o login e senha sejam encontrados no banco, o código abaixo leva a proxima tela
+                    Principal home = new Principal();
+                    home.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Login ou Senha incorreto! Tente novamente.", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show(controle.mensagem);
+            }
         }
     }
 }

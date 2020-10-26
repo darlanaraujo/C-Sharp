@@ -14,7 +14,7 @@ namespace ProjetoLogin.DAL
         {
             //É preciso baixar ou ter o Microsoft SQL Server Management Studio
             //Para criar o banco de dados.
-            con.ConnectionString = @""; //endereço do banco de dados.
+            con.ConnectionString = @"Data Source=DESKTOP-QPAF7T9;Initial Catalog=ProjetoLogin;Integrated Security=True"; //endereço do banco de dados.
         }
 
         public SqlConnection conectar()
