@@ -48,7 +48,8 @@ namespace ProjetoLogin
             {
                 if (controle.tem)
                 {
-                    MessageBox.Show("Logado com sucesso!", "Entrando", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //Caixa de mensagem caso o login ocorra bem.
+                    //MessageBox.Show("Logado com sucesso!", "Entrando", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     
                     //Caso o login e senha sejam encontrados no banco, o código abaixo leva a proxima tela
                     Principal home = new Principal();
