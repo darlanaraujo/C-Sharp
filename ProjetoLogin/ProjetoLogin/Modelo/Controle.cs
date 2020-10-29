@@ -24,6 +24,13 @@ namespace ProjetoLogin.Modelo
         }
         public String cadastrar(String email, String senha, String confSenha)
         {
+            LoginDalComandos loginDal = new LoginDalComandos();
+            this.mensagem = loginDal.cadastrar(email, senha, confSenha);
+
+            if (loginDal.tem) //a mensagem que vai vir é de sucesso
+            {
+                this.tem = true;
+            }
             return mensagem;
         } 
     }

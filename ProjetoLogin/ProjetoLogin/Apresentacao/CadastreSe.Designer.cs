@@ -95,6 +95,7 @@
             this.btnSair.TabIndex = 7;
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // btnCadastrar
             // 
@@ -104,6 +105,7 @@
             this.btnCadastrar.TabIndex = 6;
             this.btnCadastrar.Text = "CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // txbConfirmaSenha
             // 

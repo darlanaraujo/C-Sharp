@@ -118,7 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="44_113675" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\44_113675.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cad_medico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cad_medico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17_113699" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17_113699.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41_113670" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41_113670.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="08_113679" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08_113679.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="08_1136791" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08_1136791.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="06_113688" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\06_113688.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cad_medico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cad_medico1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="06_1136881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06_1136881.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cad_medico2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cad_medico2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25_113671" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25_113671.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="08_1136792" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\08_113679.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

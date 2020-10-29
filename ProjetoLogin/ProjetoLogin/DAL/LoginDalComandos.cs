@@ -31,6 +31,8 @@ namespace ProjetoLogin.DAL
                 {
                     tem = true;
                 }
+                con.desconectar();
+                dr.Close();
             }
             catch (SqlException)
             {
@@ -43,7 +45,32 @@ namespace ProjetoLogin.DAL
 
         public String cadastrar(String email, String senha, String confSenha)
         {
+            tem = false;
             //Nesse metodo vamos usar comando para cadastrar no banco 
+            if (senha.Equals(confSenha))
+            {
+                cmd.CommandText = "insert into logins values (@e, @s);";
+                cmd.Parameters.AddWithValue("@e", email);
+                cmd.Parameters.AddWithValue("@s", senha);
+
+                try
+                {
+                    cmd.Connection = con.conectar();
+                    cmd.ExecuteNonQuery();
+                    con.desconectar();
+                    this.mensagem = "Cadastrado com sucesso!";
+                    tem = true;
+                }
+                catch (SqlException)
+                {
+                    this.mensagem = "Erro ao conectar o banco de dados!";
+                }
+            }
+            else
+            {
+                this.mensagem = "Erro! Senha incorreta.";
+            }
+            
             return mensagem;
         }
     }
